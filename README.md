@@ -1,6 +1,6 @@
 # SRCNN_Tensorflow
 
-This git is related super-resolution. And using tensorflow.
+This repository is related to super-resolution and uses TensorFlow.
 
 ## Prerequisites
 - Tensorflow
@@ -27,3 +27,4 @@ SRCNN butterfly image:
 ![SRCNN_butterfly](https://github.com/NOS9512/SRCNN_Tensorflow/assets/98510923/5d102780-1909-41ca-a2f5-2701a8fded2c)
 
 
+We can see that SRCNN image quality is better than bicubic image quality.
