@@ -9,7 +9,11 @@
 - Denoising
 - Object detection
 
+## 논문
+- BL-ASM에서 U-net 기반 위상 홀로그램의 스펙클 노이즈 감소와 이미지 품질 향상
 
-## 학력
-- 청주대학교 레이저광정보공학과(학사 졸업)
-- 충북대학교 정보통신공학과(석사 졸업)
+
+《연구논문》 Korean Journal of Optics and Photonics, Vol. 34, No. 5, October 2023, pp. 192-201
+
+
+DOI: https://doi.org/10.3807/KJOP.2023.34.5.192
