@@ -7,7 +7,7 @@
 
 - Super resolution
 - Denoising
-- digital holography
+- Object detection
 
 
 ## 학력
