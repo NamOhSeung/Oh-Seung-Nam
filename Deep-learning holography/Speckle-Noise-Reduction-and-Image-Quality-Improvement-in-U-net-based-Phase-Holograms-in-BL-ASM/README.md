@@ -46,7 +46,8 @@ Band-limited angular spectrum method (BL-ASM)는 공간주파수 제어의 문�
 
 ---
 
-![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/6c3c09c7-f0bb-401f-a037-80c031e6fa7a)
+![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/358e77e4-d539-4b8f-b854-c698c5b239c7)
+
 
 
 스펙클 노이즈의 정량적 평가를 위해 그림 (b)–(d)에서 세 번째 구역의 스펙클 노이즈를 pixel 값으로 표현한 그래프이다
