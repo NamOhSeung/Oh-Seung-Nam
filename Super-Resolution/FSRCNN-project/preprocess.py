@@ -38,15 +38,6 @@ req_size = 20
 inp_size = int(req_size/scale)
 stride = 15
 
-def PSNR(Original,compressed):
-    mse = np.mean((Original-compressed)**2)
-    if(mse == 0):  # MSE is zero means no noise is present in the signal .
-                  # Therefore PSNR have no importance.
-        return 100
-    pixel_max = np.max(compressed).astype("uint8")
-    PSNR = 20*np.log10(pixel_max / np.sqrt(mse))
-    return PSNR
-
 def extract_patches(img, req_size, stride):
     patches = []
     shapes = img.shape
