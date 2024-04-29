@@ -18,8 +18,8 @@
 
 # 수정 후 FSRCNN-n의 결과
 ![butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e)
+<figcaption> Ground truth image </figcaption>
 
-Ground truth image
 
 bicubic image
 
