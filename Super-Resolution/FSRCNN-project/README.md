@@ -38,6 +38,9 @@
 - tensorflow 2.4
 - python 3.6.5
 
+### 이미지 데이터셋
+yang91 dataset
+
 ### 참고
 https://github.com/OlgaChernytska/Super-Resolution-with-FSRCNN?tab=readme-ov-file
 
