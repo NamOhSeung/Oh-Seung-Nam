@@ -71,7 +71,7 @@ def FSRCNN(shape):
 
 def main():
 
-    input, labels = preprocessing2(img_path1, img_path2, req_size, inp_size, stride)
+    input, labels = preprocessing(img_path1, img_path2, req_size, inp_size, stride)
 
     input = np.asarray(input)
     labels = np.asarray(labels)
