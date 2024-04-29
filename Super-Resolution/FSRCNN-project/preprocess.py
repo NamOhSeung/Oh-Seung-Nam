@@ -47,43 +47,6 @@ def PSNR(Original,compressed):
     PSNR = 20*np.log10(pixel_max / np.sqrt(mse))
     return PSNR
 
-def preprocessing(img_path1,img_path2):
-
-  input=[]
-  labels=[]
-
-  for filera in os.listdir(img_path1): # 이미지 이름 불러오기
-    readpath = os.path.join(img_path1,filera) # 이미지 경로 불러오기
-    img = cv2.imread(readpath) # 경로에서 이미지 읽어오기
-    img = np.asarray(img) # 배열로 선언
-    shapes = img.shape # shape 다 다름
-    for i in range(0, shapes[0]-req_size+1, stride): # 0부터 shapes[0]-req_size+1까지의 거리를 stride 거리마다 i로 배정
-      for j in range(0, shapes[1]-req_size+1, stride): # 0부터 shapes[1]-req_size+1까지의 거리를 stride 거리마다 i로 배정
-        subimage_HR = img[i:i+req_size, j:j+req_size] # 고해상도 패치 추출
-        #cv2_imshow(subimage_HR)
-        subimage_LR = cv2.resize(subimage_HR,(inp_size,inp_size)) # 고해상도 패치를 resize 통해 저해상도 패치로 만듦
-        input.append(subimage_LR) # 저해상도 패치를 input으로
-        labels.append(subimage_HR) # 고해상도 패치를 label로
-
-  counta=0
-  for filera in os.listdir(img_path2): # 
-    counta=counta+1
-    if(counta==300): # 300번때 정지
-      break
-    readpath = os.path.join(img_path2,filera) 
-    img = cv2.imread(readpath)
-    img = np.asarray(img)
-    shapes = img.shape
-    for i in range(0, shapes[0]-req_size+1, stride):
-      for j in range(0, shapes[1]-req_size+1,stride):
-        subimage_HR = img[i:i+req_size, j:j+req_size]
-        #cv2_imshow(subimage_HR)
-        subimage_LR = cv2.resize(subimage_HR,(inp_size,inp_size))
-        input.append(subimage_LR)
-        labels.append(subimage_HR)
-
-  return input, labels
-
 def extract_patches(img, req_size, stride):
     patches = []
     shapes = img.shape
@@ -93,7 +56,7 @@ def extract_patches(img, req_size, stride):
             patches.append(patch)
     return patches
 
-def preprocessing2(img_path1, img_path2, req_size, inp_size, stride):
+def preprocessing(img_path1, img_path2, req_size, inp_size, stride):
     inputs = []
     labels = []
 
