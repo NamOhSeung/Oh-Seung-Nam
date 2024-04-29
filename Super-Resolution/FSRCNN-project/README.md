@@ -32,3 +32,11 @@ FSRCNN-n image
 |---|---|---|
 |FSRCNN-n|*강조1*|테스트3|
 
+### 사용 버전 
+- tensorflow 2.4
+- python 3.6.5
+
+### 참고
+https://github.com/OlgaChernytska/Super-Resolution-with-FSRCNN?tab=readme-ov-file
+
+
