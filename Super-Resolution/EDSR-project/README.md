@@ -12,7 +12,13 @@ tensorflow와 keras로 "Enhanced Deep Residual Networks for Single Image Super-R
 |Bicubic|31.2|0.975|
 |EDSR|32.3|0.987|
 
-bicubic으로 고해상도로 변환한 것보다 EDSR 모델을 통해 구현한 고해상도의 이미지가 더 세밀하게 구현이 되는 것을 확인하였다.
+bicubic으로 고해상도로 변환한 것보다 EDSR 모델을 통해 구현한 고해상도의 이미지가 눈으로 봤을 때 더 세밀하게 구현이 되는 것을 확인하였다.
+또한 수치적으로도 PSNR과 SSIM이 더욱 높게 나오는 것을 확인하였다.
+
+### 사용 버전
+- python 3.10
+- tensorflow 2.8
+- tensorflow-gpu 2.8
 
 ### 참고
 Image Super Resolution Using EDSR and SRGAN : https://github.com/IMvision12/Image-Super-Resolution/tree/main
