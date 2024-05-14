@@ -7,3 +7,4 @@
 
 - SRCNN 구현 프로젝트
 - FSRCNN의 성능을 높이기 위한 프로젝트(FSRCNN-n)
+- EDSR 구현 프로젝트
