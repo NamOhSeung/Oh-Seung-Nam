@@ -9,13 +9,13 @@ from keras import layers
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
 
-def flip_left_right(lowres_img, highres_img):
-    """Flips Images to left and right."""
 
-    # Outputs random values from a uniform distribution in between 0 to 1
+def flip_randomly(lowres_img, highres_img):
+    """이미지를 무작위로 좌우로 뒤집는다."""
+
+    # 0부터 1까지의 균일 분포에서 무작위 숫자를 생성
     rn = tf.random.uniform(shape=(), maxval=1)
-    # If rn is less than 0.5 it returns original lowres_img and highres_img
-    # If rn is greater than 0.5 it returns flipped image
+    # 만약 rn이 0.5보다 작으면 원본 이미지를 반환하고, 그렇지 않으면 뒤집힌 이미지를 반환
     return tf.cond(
         rn < 0.5,
         lambda: (lowres_img, highres_img),
@@ -26,23 +26,23 @@ def flip_left_right(lowres_img, highres_img):
     )
 
 
-def random_rotate(lowres_img, highres_img):
-    """Rotates Images by 90 degrees."""
+def rotate_randomly(lowres_img, highres_img):
+    """Randomly rotates images by 90, 180, or 270 degrees."""
 
-    # Outputs random values from uniform distribution in between 0 to 4
+    # Generate a random integer from a uniform distribution in the range [0, 3]
     rn = tf.random.uniform(shape=(), maxval=4, dtype=tf.int32)
-    # Here rn signifies number of times the image(s) are rotated by 90 degrees
+    # Rotate the images based on the random number
     return tf.image.rot90(lowres_img, rn), tf.image.rot90(highres_img, rn)
 
 
 def random_crop(lowres_img, highres_img, hr_crop_size=96, scale=4):
     """Crop images.
 
-    low resolution images: 24x24
-    high resolution images: 96x96
+    Low resolution images: 24x24
+    High resolution images: 96x96
     """
     lowres_crop_size = hr_crop_size // scale  # 96//4=24
-    lowres_img_shape = tf.shape(lowres_img)[:2]  # (height,width)
+    lowres_img_shape = tf.shape(lowres_img)[:2]  # (height, width)
 
     lowres_width = tf.random.uniform(
         shape=(), maxval=lowres_img_shape[1] - lowres_crop_size + 1, dtype=tf.int32
@@ -66,16 +66,9 @@ def random_crop(lowres_img, highres_img, hr_crop_size=96, scale=4):
     return lowres_img_cropped, highres_img_cropped
 
 
-"""
-## Prepare a `tf.data.Dataset` object
+def prepare_dataset(dataset_cache, training=True):
+    """Prepare a `tf.data.Dataset` object for training or validation."""
 
-We augment the training data with random horizontal flips and 90 rotations.
-
-As low resolution images, we use 24x24 RGB input patches.
-"""
-
-
-def dataset_object(dataset_cache, training=True):
     ds = dataset_cache
     ds = ds.map(
         lambda lowres, highres: random_crop(lowres, highres, scale=4),
@@ -83,14 +76,20 @@ def dataset_object(dataset_cache, training=True):
     )
 
     if training:
-        ds = ds.map(random_rotate, num_parallel_calls=AUTOTUNE)
-        ds = ds.map(flip_left_right, num_parallel_calls=AUTOTUNE)
-    # Batching Data
+        ds = ds.map(rotate_randomly, num_parallel_calls=AUTOTUNE)
+        ds = ds.map(flip_randomly, num_parallel_calls=AUTOTUNE)
+
+    # Batch the data
     ds = ds.batch(16)
 
     if training:
-        # Repeating Data, so that cardinality if dataset becomes infinte
+        # Repeat the data to make the dataset infinite
         ds = ds.repeat()
-    # prefetching allows later images to be prepared while the current image is being processed
+
+    # Prefetch the data for better performance
     ds = ds.prefetch(buffer_size=AUTOTUNE)
+    
     return ds
+
+
+
