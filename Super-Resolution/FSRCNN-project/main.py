@@ -93,17 +93,6 @@ def main():
     history = model.fit(input,labels,batch_size=32,shuffle=True,validation_split=0.01 ,epochs=500,callbacks=[checkpoint], verbose=1 )                                          
 
     
-    # print(history.history['loss'])
-    # print(history.history['val_loss'])
-    # fig, loss_ax = plt.subplots()
-
-    # loss_ax.plot(history.history['loss'],'y',label='train loss')
-    # loss_ax.plot(history.history['val_loss'],'r',label='val loss')
-    # loss_ax.set_xlabel('epoch')
-    # loss_ax.set_ylabel('loss')
-    # loss_ax.legend(loc='upper left')
-    # plt.show()
-
 if __name__ == '__main__':
     main()
 
