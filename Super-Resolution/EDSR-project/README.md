@@ -21,7 +21,8 @@ tensorflow와 keras로 "Enhanced Deep Residual Networks for Single Image Super-R
 - 이를 통해 bicubic으로 고해상도로 변환한 것보다 EDSR 모델을 통해 구현한 고해상도의 이미지가 눈으로 봤을 때 엣지를 더 잘 잡아내고, 세밀하게 구현이 되는 것을 확인할 수 있다.
 또한 수치적으로도 PSNR과 SSIM이 더욱 높게 나오는 것을 확인하였다.
 
-
+### 실행
+- main.ipynb
 
 ### 사용 버전
 - tensorflow 2.8
