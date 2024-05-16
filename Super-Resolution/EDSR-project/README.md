@@ -12,8 +12,12 @@ tensorflow와 keras로 "Enhanced Deep Residual Networks for Single Image Super-R
 |Bicubic|31.2|0.975|
 |EDSR|32.3|0.987|
 
-bicubic으로 고해상도로 변환한 것보다 EDSR 모델을 통해 구현한 고해상도의 이미지가 눈으로 봤을 때 더 세밀하게 구현이 되는 것을 확인하였다.
+- 저해상도의 이미지를 입력 이미지로 선정하고, bicubic 보간법을 통해 확대한 이미지를 구현 후, EDSR 모델을 통해 저해상도의 이미지를 고해상도 이미지와 같은 해상도의 이미지로 구현해 보았다.
+
+
+- 이를 통해 bicubic으로 고해상도로 변환한 것보다 EDSR 모델을 통해 구현한 고해상도의 이미지가 눈으로 봤을 때 더 세밀하게 구현이 되는 것을 확인하였다.
 또한 수치적으로도 PSNR과 SSIM이 더욱 높게 나오는 것을 확인하였다.
+
 
 ### 사용 버전
 - tensorflow 2.8
