@@ -1,5 +1,6 @@
 # AUTOENCODER를 활용한 노이즈 제거 
 ![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/cc920e0f-a05a-4dcb-af94-92f5704ce305)
+출처 : https://excelsior-cjh.tistory.com/187
 
 ## 데이터셋
 텐서플로우 내장 데이터셋인 MNist 사용
