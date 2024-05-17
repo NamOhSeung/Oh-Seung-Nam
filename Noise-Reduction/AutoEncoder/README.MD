@@ -18,4 +18,4 @@
 - tensorflow-gpu 2.8
 
 # 실행
-- main.ipynb
+- predict.ipynb
