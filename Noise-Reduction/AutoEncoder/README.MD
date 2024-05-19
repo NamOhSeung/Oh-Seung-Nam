@@ -8,10 +8,14 @@
 
 ## 결과
 - 노이즈 이미지
+
+
 ![noise_image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/15d2f8d3-dcfe-4ba9-b784-d115aa0f0f24)
 ![noise_image2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/fda3323d-e81c-4332-9930-1397555c21fa)
 
 - 노이즈 제거한 이미지
+
+
 ![prediction 비교_conv layer 모델](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/13114dbe-cfba-4f9f-84f9-69019cd5bce3)
 ![prediction 비교_conv layer 모델2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/fadb79d7-e7e1-46d6-a147-71db17e3ec9f)
 
