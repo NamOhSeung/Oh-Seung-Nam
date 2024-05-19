@@ -7,6 +7,12 @@
 텐서플로우 내장 데이터셋인 MNist 사용
 
 ## 결과
+
+- 테스트 이미지
+
+![test 이미지 모음1](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/e83f3635-77b1-42f7-80d2-63b053ccf801)
+![test 이미지 모음2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/a134a147-abe4-45e7-ba05-bc1d4fb8ef7b)
+
 - 노이즈 이미지
 
 
