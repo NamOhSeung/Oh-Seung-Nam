@@ -40,7 +40,7 @@
 
 ### 이미지 데이터셋
 
-- yang91 datasets
+- yang91 dataset
 
 ### 참고
 https://github.com/OlgaChernytska/Super-Resolution-with-FSRCNN?tab=readme-ov-file
