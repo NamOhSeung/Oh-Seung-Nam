@@ -7,9 +7,9 @@
 기존의 모델과 파라미터의 수정을 통해 기존의 모델을 통해 나온 결과보다 더 좋은 결과를 만들어내는 것이 목표이다.
 
 # 기존 논문 구현 결과
-![image.jpg1](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e) |![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/2aa18f3b-b703-4b78-86f1-3bcb5b7ab6cc)|![original_fsrcnn_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/12f0762b-c6bb-478d-8732-ce0fa2f11443)
---- | --- | --- | 
-|Ground truth|Bicubic|Original FSRCNN|
+![image.jpg1](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e)|![low_resolution_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f692903b-90e8-4bc8-99e0-8a9ec677cbb1)|![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/2aa18f3b-b703-4b78-86f1-3bcb5b7ab6cc)|![original_fsrcnn_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/12f0762b-c6bb-478d-8732-ce0fa2f11443)
+--- | --- | --- | --- |
+|Ground truth|Low resolution|Bicubic|Original FSRCNN|
 
 
 |모델|PSNR|SSIM|
@@ -23,9 +23,9 @@
 - 수정한 모델을 FSRCNN-n으로 이름을 정하였다.
 
 # 수정 후 FSRCNN-n의 결과
-![butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e) |![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/7b5eff26-1e1a-4bba-82d6-9b7c2e906962)|![fsrcnn_butterfly2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e95cc29-f20f-4c09-86ae-0ad9edee40d9)
---- | --- | --- |
-|Ground truth|Bicubic|FSRCNN-n
+![butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e)|![low_resolution_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/da2360fc-f23d-479c-9c70-45230875f367)|![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/7b5eff26-1e1a-4bba-82d6-9b7c2e906962)|![fsrcnn_butterfly2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e95cc29-f20f-4c09-86ae-0ad9edee40d9)
+--- | --- | --- | --- |
+|Ground truth|Low resolution|Bicubic|FSRCNN-n
 
 |모델|PSNR|SSIM|
 |---|---|---|
