@@ -17,10 +17,10 @@
 |Bicubic|*26.9*|0.91|
 |Original FSRCNN|*24.98*|0.87|
 
-# 수정한 부분(FSRCNN-n)
+# 수정한 부분(FSRCNN-s)
 - 저자는 d=32, s=5, m=1을 사용하였지만, 여기서는 d=56, s=12, m=4을 사용하여 더 나은 복원 퀄리티를 생성하였다.
 - SGD 대신 ADAM optimizer를 사용하였다. 연산량이 더 늘어나는데 비해, step size뿐만이 아니라 descent direction까지 조절이 되어 더 좋은 복원 퀄리티 결과를 만들었다.
-- 수정한 모델을 FSRCNN-n으로 이름을 정하였다.
+- 수정한 모델을 FSRCNN-s으로 이름을 정하였다.(소규모 데이터셋을 위한 모델이기 때문에 small의 약자 s를 붙임)
 
 # 수정 후 FSRCNN-n의 결과
 ![butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e)|![low_resolution_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/da2360fc-f23d-479c-9c70-45230875f367)|![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/7b5eff26-1e1a-4bba-82d6-9b7c2e906962)|![fsrcnn_butterfly2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e95cc29-f20f-4c09-86ae-0ad9edee40d9)
