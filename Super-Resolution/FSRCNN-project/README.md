@@ -19,13 +19,13 @@
 |Bicubic|*26.9*|0.91|-|
 |Original FSRCNN|*24.98*|0.87|56m 47s|
 
-# 수정한 부분(FSRCNN-s)
+# 변경한 부분(FSRCNN-s)
 - SGD optimizer 대신 Adam optimizer를 사용하였다. 
 - Adam은 소규모 데이터셋에서도 좋은 성능을 발휘할 수 있기 때문에 소규모 데이터셋을 선택하였다. 
 - 소규모 데이터셋을 선택하였기 때문에 flip을 활용하여 데이터셋 증강을 하였음. 
 - 수정한 모델을 FSRCNN-s으로 이름을 정하였다.(소규모 데이터셋을 위한 모델이기 때문에 small의 약자 s를 붙임)
 
-# 수정 후 FSRCNN-s의 결과
+# 변경 후 FSRCNN-s의 결과
 ![butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e7468b8-3860-4ce1-8d83-f2153effd04e)|![low_resolution_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/da2360fc-f23d-479c-9c70-45230875f367)|![bic_butterfly](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/7b5eff26-1e1a-4bba-82d6-9b7c2e906962)|![fsrcnn_butterfly2](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/8e95cc29-f20f-4c09-86ae-0ad9edee40d9)
 --- | --- | --- | --- |
 |Ground truth|Low resolution|Bicubic|FSRCNN-s
