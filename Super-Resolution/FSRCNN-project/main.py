@@ -43,7 +43,7 @@ inp_size = int(req_size/scale)
 stride = 15
 
 upscaling_factor = 4
-color_channel = 3
+color_channels = 3
 batch_size = 32
 epochs = 500
 lr = 0.001
