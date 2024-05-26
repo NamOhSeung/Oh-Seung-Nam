@@ -9,7 +9,7 @@ from tensorflow import keras
 from keras import layers
 
 
-def div2k_download():
+def div2k_download(:
 
     div2k_data = tfds.image.Div2k(config="bicubic_x4",data_dir = "./image_dataset")
     div2k_data.download_and_prepare()
