@@ -17,7 +17,7 @@
   
 ![loss](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/566ac82e-db9b-4cc3-b39d-a650d18f658c)
 
-정확도는 accuracy = 0.95 val accuracy = 0.0226로 나왔다.
+정확도는 accuracy = 0.95, val accuracy = 0.0226로 나왔다.
   
 
 - object detection image
