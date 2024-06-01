@@ -9,6 +9,7 @@
 ### 사용 버전
 - python 3.8
 - tensorflow 2.10
+- tensorflow-gpu 2.10
 
 
 ### 결과
