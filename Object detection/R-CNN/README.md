@@ -27,7 +27,7 @@
 |:---:|:---:|:---:|:---:|
 |output1|output2|output3|output4|
 
-- 고
+- 고찰
 
 이미지 결과를 보았을 때, 비행기를 꽤 detection한 것을 확인 할 수 있었다.
 bounding box와 selective search를 활용한 딥러닝을 처음으로 구현해보았는데, 이미지 화질 개선만 하다가 객체 인식의 데이터셋을 사용해서
