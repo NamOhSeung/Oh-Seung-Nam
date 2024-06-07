@@ -1,5 +1,5 @@
-# YOLOV1
-yolov1을 구현한 코드이다.
+# YOLOV2
+yolov2를 구현한 코드이다.
 
 ### 사용 버전
 - tensorflow 2.8
