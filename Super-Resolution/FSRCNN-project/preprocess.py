@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
+import matplotlib.image as mpim
+
 from PIL import Image
 import cv2
 from tqdm import tqdm
