@@ -6,8 +6,7 @@
 
 ## 데이터 수집 및 준비
   
-|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/de3e19c3-871f-4e9f-902c-c86d8e93e08b)|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f174a807-6606-4515-a998-f4f1c8cf1c71)
-|
+|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/de3e19c3-871f-4e9f-902c-c86d8e93e08b)|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f174a807-6606-4515-a998-f4f1c8cf1c71)|
 |:---:|:---:|
 |image|label|
 
