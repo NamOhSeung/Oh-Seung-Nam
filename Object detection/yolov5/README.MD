@@ -5,6 +5,14 @@
 - 이를 통해 각 팀의 선수 위치 파악 뿐만이 아니라 추후에 전술 분석, 방송 중계에 활용될 수 있는 데이터를 제공하는 시스템을 개발하도록 한다.
 
 ## 데이터 수집 및 준비
+  
+|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/de3e19c3-871f-4e9f-902c-c86d8e93e08b)|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f174a807-6606-4515-a998-f4f1c8cf1c71)
+|
+|:---:|:---:|
+|image|label|
+
+
+
 - 잉글랜드의 축구 클럽인 맨체스터 유나이티드와 맨체스터 시티 경기에서의 유니폼 캡처와 구글에서의 유니폼 사진을 수집하여 데이터셋을 구성하였음.
 - Train, validation을 각각 9:1 비율로 구성하였음.(총 150개의 이미지)
 - Label은 man utd(맨체스터 유나이티드), man city(맨체스터 시티)로 구성하였음.
