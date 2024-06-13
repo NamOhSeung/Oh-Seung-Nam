@@ -23,5 +23,6 @@
 ## 결과
 
 |![football_colab (1) (1)](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/e64f1e63-3311-4d6d-b7bb-babfc15ec68c)|
-
+|:---:|
+|result video|
 
