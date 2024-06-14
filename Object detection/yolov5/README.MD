@@ -8,17 +8,17 @@
   
 |![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/de3e19c3-871f-4e9f-902c-c86d8e93e08b)|![image](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f174a807-6606-4515-a998-f4f1c8cf1c71)|
 |:---:|:---:|
-|image|label|
+|image|bounding box|
 
 
-
-- 잉글랜드의 축구 클럽인 맨체스터 유나이티드와 맨체스터 시티 경기에서의 유니폼 캡처와 구글에서의 유니폼 사진을 수집하여 데이터셋을 구성하였음.
-- Train, validation을 각각 9:1 비율로 구성하였음.(총 150개의 이미지)
-- Label은 man utd(맨체스터 유나이티드), man city(맨체스터 시티)로 구성하였음.
-- 데이터 라벨링 프로그램(https://github.com/tzutalin/labelImg) 을 이용하여 각 이미지에 바운딩 박스를 그려 라벨링을 생성하였음.
+- 잉글랜드의 축구 클럽인 맨체스터 유나이티드와 맨체스터 시티 경기에서의 유니폼 캡처와 구글에서의 유니폼 사진을 수집하여 데이터셋을 구성하였다.
+- Train, validation을 각각 9:1 비율로 구성하였다.(총 150개의 이미지)
+- Label은 man utd(맨체스터 유나이티드), man city(맨체스터 시티)로 구성하였다.
+- 데이터 라벨링 프로그램(https://github.com/tzutalin/labelImg) 을 이용하여 각 이미지에 유니폼별로 바운딩 박스를 그려 라벨링을 생성하였다.
 
 ## 모델 학습
-
+Yolov5로 학습을 진행하였으며, epoch은 100으로 처리하였다.
+클래스별 mAP 측정 결과 최대 0.956을 도출 했습니다.
 
 ## 결과
 
@@ -26,3 +26,6 @@
 |:---:|
 |result video|
 
+- 유니폼 별로 클래스를 구분한 결과, 각 팀의 선수들의 팀이 잘 표현되었다.
+- 아쉬운 점은 클래스를 구분하지 않았던, 심판도 가끔씩 선수로 검출이 되는 모습이 있었다.
+- 섹스
