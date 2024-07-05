@@ -8,7 +8,7 @@
 - Super resolution
 - Denoising
 - Object detection
-- Deep learning based Digital holography
+- Deep learning based Digital holography 
 
 ## 게재 논문
 - BL-ASM에서 U-net 기반 위상 홀로그램의 스펙클 노이즈 감소와 이미지 품질 향상
