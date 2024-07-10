@@ -12,7 +12,6 @@
 
 all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 
-
 |Class|mAP|mAP50-95|
 |---|---|---|
 |all|31.2|0.975|
@@ -22,14 +21,8 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 |Lee Dong Hwi|32.3|0.987|
 |Ko Kyung-pyo|32.3|0.987|
 
-all 0.958 0.719
-HYERI 0.986 0.733
-Ryu Jun-yeol 0.859  0.591
-Park Bo-gum 0.995 0.774
-Lee Dong Hwi 0.982 0.78
-Ko Kyung-pyo 0.966 0.716
+다음은 테스트 영상에 얼굴 인식이 잘 되었는지 확인한 결과이다.
 
-이런 결과가 나오게 된다. 
 
 |![전체인원](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/4d0aefe2-9d07-41d7-a8cb-07e94db1a175)|![혜리](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/a07d9c7e-3bfe-430d-8300-962ad25f44b5)|
 |:---:|:---:|
@@ -42,3 +35,5 @@ Ko Kyung-pyo 0.966 0.716
 |![이동휘](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/4d95e74b-81d4-48ac-91e2-07b26c37ad75)|![고경표](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/a55eda39-94c1-401f-b1b9-a43995e2321f)|
 |:---:|:---:|
 |이동휘|고경표|
+
+드라마 속 인물들의 얼굴인식이 한 프레임도 빠짐 없이 잘 되어지는 것을 확인할 수 있다.
