@@ -25,7 +25,7 @@ Ko Kyung-pyo 0.966 0.716
 |:---:|:---:|
 |전체인원|류준열|
 
-|![박보검](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/55eacb48-863c-4d39-a9a3-c6e7bd60b207)||![이동휘](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/4d95e74b-81d4-48ac-91e2-07b26c37ad75)|
+|![박보검](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/55eacb48-863c-4d39-a9a3-c6e7bd60b207)|![이동휘](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/4d95e74b-81d4-48ac-91e2-07b26c37ad75)|
 |:---:|:---:|
 |박보검|이동휘|
 
