@@ -28,7 +28,7 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 |:---:|:---:|
 |전체인원|혜리|
 
-|![류준열](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/c174efff-e3b8-4cbc-82d9-b90def324b1f)||![박보검](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/55eacb48-863c-4d39-a9a3-c6e7bd60b207)
+|![류준열](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/c174efff-e3b8-4cbc-82d9-b90def324b1f)|![박보검](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/55eacb48-863c-4d39-a9a3-c6e7bd60b207)
 |:---:|:---:|
 |류준열|박보검|
 
