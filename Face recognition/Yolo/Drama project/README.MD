@@ -21,6 +21,10 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 |Lee Dong Hwi|32.3|0.987|
 |Ko Kyung-pyo|32.3|0.987|
 
+loss와 mAP을 그래프로 정리하면,
+![results](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f9eb1cd6-0deb-4472-a284-73c2762f9c85)
+
+
 다음은 테스트 영상에 얼굴 인식이 잘 되었는지 확인한 결과이다.
 
 
@@ -37,3 +41,7 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 |이동휘|고경표|
 
 드라마 속 인물들의 얼굴인식이 한 프레임도 빠짐 없이 잘 되어지는 것을 확인할 수 있다.
+
+
+## 참고
+https://github.com/ultralytics/yolov5
