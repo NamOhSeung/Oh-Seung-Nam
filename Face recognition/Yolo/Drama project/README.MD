@@ -24,6 +24,8 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 loss와 mAP을 그래프로 정리하면,
 ![results](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f9eb1cd6-0deb-4472-a284-73c2762f9c85)
 
+이와 같이 loss는 약간의 튐이 있지만 전체적으로 감소하며, mAP 또한 약간의 감소가 중간중간에 있지만 전체적으로 상승하는 것을 볼 수 있다.
+
 
 다음은 테스트 영상에 얼굴 인식이 잘 되었는지 확인한 결과이다.
 
