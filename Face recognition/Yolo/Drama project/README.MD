@@ -5,6 +5,10 @@
 - 데이터셋은 Train 240장, Valid 60장으로 Train, Valid를 8:2로 구성
 - 클래스는 5명의 주인공인 'HYERI', 'Ryu Jun-yeol', 'Park Bo-gum', 'Lee Dong Hwi', 'Ko Kyung-pyo'로 구성
 
+아래 이미지는 각 클래스 별로 데이터 라벨링 한 모습을 보여주는 이미지 모음이다.
+![val_batch0_labels](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/194331f1-5691-4290-9825-85e7a01daf85)
+
+
 ## 파라미터
 - epoch은 200으로, optimizer는 SGD로 설정
 
