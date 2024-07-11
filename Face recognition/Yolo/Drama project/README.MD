@@ -14,12 +14,12 @@ all과 각 클래스 별로 mAP와 mAP50-95를 정리하면,
 
 |Class|mAP|mAP50-95|
 |---|---|---|
-|all|31.2|0.975|
-|HYERI|32.3|0.987|
-|Ryu Jun-yeol|32.3|0.987|
-|Park Bo-gum|32.3|0.987|
-|Lee Dong Hwi|32.3|0.987|
-|Ko Kyung-pyo|32.3|0.987|
+|all|0.958|0.719|
+|HYERI|0.986|0.733|
+|Ryu Jun-yeol|0.859|0.591|
+|Park Bo-gum|0.995|0.774|
+|Lee Dong Hwi|0.982|0.78|
+|Ko Kyung-pyo|0.966|0.716|
 
 loss와 mAP을 그래프로 정리하면,
 ![results](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/f9eb1cd6-0deb-4472-a284-73c2762f9c85)
