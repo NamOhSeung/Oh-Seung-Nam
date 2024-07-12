@@ -103,7 +103,7 @@ def main():
     model = FSRCNN(shape)
 
     # model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
-    model.compile(loss='mse', optimizer='sgd', metrics=['accuracy'])
+    model.compile(loss='mse', optimizer='adam', metrics=['accuracy'])
     print(model.summary())
     
     checkpoint = ModelCheckpoint('original_fsrcnn_epoch500.h5',  
