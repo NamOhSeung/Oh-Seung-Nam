@@ -9,7 +9,7 @@
 ![val_batch0_labels](https://github.com/NamOhSeung/Oh-Seung-Nam/assets/98510923/194331f1-5691-4290-9825-85e7a01daf85)
 
 
-## 파라미터
+## 파라미터 
 - epoch은 200으로, optimizer는 SGD로 설정
 
 ## 결과
