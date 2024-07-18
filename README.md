@@ -17,5 +17,5 @@
  
 《연구논문》 Korean Journal of Optics and Photonics, Vol. 34, No. 5, October 2023, pp. 192-201
 
-
+ 
 DOI: https://doi.org/10.3807/KJOP.2023.34.5.192
