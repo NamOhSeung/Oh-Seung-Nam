@@ -6,7 +6,7 @@
 ## 관심분야
 
 - Super resolution
-- Denoising
+- Denoising 
 - Object detection 
 - Deep learning based Digital holography 
 - Face recognition
