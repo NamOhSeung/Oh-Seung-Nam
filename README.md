@@ -11,7 +11,8 @@
 
 - Super resolution 
 - Denoising 
-- Object detection 
+- Object detection
+- Segmentation
 - Deep learning based Digital holography 
  
 ## 게재 논문
