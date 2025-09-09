@@ -5,8 +5,9 @@
 
 # 담당 업무
 
-- 노이즈가 존재하는 배터리 CT 촬영 이미지에서 음극과 양극을 구분해내는 Semantic Segmentation 딥러닝 연구 개발
-- AI 모델 경량화 및 최적화
+- 노이즈가 존재하는 배터리 CT 촬영 이미지에서 음극과 양극과 배경을 구분해내는 Semantic Segmentation AI 모델 연구 개발
+- AMP와 Pruning 등으로 AI 모델 최적화
+- CT 이미지 레이블링
 
 ## 관심분야
 
