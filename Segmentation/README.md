@@ -5,6 +5,5 @@
 
 ## 목차
 
-- polyp segmentation
-
+- Sementic Segmentation
 
